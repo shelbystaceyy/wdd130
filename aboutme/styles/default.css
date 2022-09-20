@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    font-size: 1.2cm;
+    font-family: serif;
+    color: rgb(190, 186, 164);
+}
+img {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 0.75cm;
+    font-family: serif;
+    color: rgb(190, 186, 164);
+}
+p {
+    text-align: center;
+    font-size: 0.5cm;
+    font-family: serif;
+    color: rgb(190, 186, 164);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+  }
+  div {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+  body {
+    background-color: rgb(85, 128, 95);
+    border-style: double;
+    border-color: rgb(190, 186, 164);;
+    border-width: 10px;
+  }
