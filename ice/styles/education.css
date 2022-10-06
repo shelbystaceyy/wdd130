@@ -4,7 +4,7 @@ body {
 h1 {
     color: white;
 }
-h1:hover {
+#special:hover {
     color:black;
 }
 header {
@@ -30,4 +30,13 @@ img {
 }
 .center {
     text-align: center;
+}
+#quote {
+    margin: 0 auto;
+    width: 215px;
+    text-align: center;
+    line-height: 1.5;
+}
+.end {
+    color:black
 }
