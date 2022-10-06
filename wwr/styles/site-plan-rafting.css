@@ -9,7 +9,7 @@ Fonts are separated by a & */
   --primary-color: #bebaa4   ;
   --secondary-color: #55805f;
   --accent1-color: #2a5929;
-  --accent2-color: #6e6b5e;
+  --accent2-color: #d3d0c1;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "font-family: 'Russo+One', sans-serif;";
@@ -23,7 +23,7 @@ Fonts are separated by a & */
   --paragraph-background-color: rgb(85, 128, 95)  ;
   --nav-link-color: rgb(85, 128, 95);
   --nav-background-color: rgb(190, 186, 164);
-  --nav-hover-link-color: #6e6b5e;
+  --nav-hover-link-color: #d3d0c1;
   --nav-hover-background-color: #2a5929;
 }
 
