@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #737373;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    /* border: 1px solid black; */
+}
+
+.icons img {
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid #444444;
+}
+
+.img1 {
+    margin: 50px 100px;
+}

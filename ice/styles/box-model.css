@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+p {
+    background-color: rgb(179, 114, 166);
+}
+section {
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+}
+#section1 {
+    padding: 50px;
+}
