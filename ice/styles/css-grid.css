@@ -1,0 +1,15 @@
+article {
+    background-color: pink;
+    border: 1px solid black;
+}
+
+section {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+}
+
+#article1 {
+    grid-column: 1/4;
+}
