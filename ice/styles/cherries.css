@@ -27,6 +27,7 @@ h1 {
     font-size: 160px;
     text-align: center;
     font-family: 'DM Serif Display', serif;
+    letter-spacing: .2em;
 }
 
 h2 {
@@ -34,5 +35,5 @@ h2 {
     font-size: 100px;
     text-align: center;
     font-family: 'DM Serif Display', serif;
-
+    letter-spacing: .2em;
 }
