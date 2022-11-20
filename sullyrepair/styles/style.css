@@ -9,6 +9,11 @@ nav {
     width: 80%;
 }
 
+/*class selectors*/
+.home-imgs {
+    width: 20%;
+}
+
 
 /*id selectors*/
 #main-img {
