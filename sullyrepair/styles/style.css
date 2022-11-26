@@ -1,25 +1,135 @@
-a {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+/* Home Selectors */
+body {
+    margin: 0;
+    background-color: #FAC8CD;
+}
+
+h1 {
+    text-align: center;
+    color: #495D63;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #495D63;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 5px solid #FAC8CD;
+    background-color: #FAC8CD;
+    color: #495D63;
+}
+
+main a {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px;
+    margin: 100px 550px;
+    border-radius: 20px;
     text-decoration: none;
+    background-color: #FAC8CD;
+    color: #495D63;
+}
+
+main a:hover {
+    background-color: #904E55;
+    color: #F1EFDD;
+}
+
+nav a {
+    color: #495D63;
+    background-color: #FAC8CD;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
 }
 
 nav {
     display: flex;
+    background-color: #FAC8CD;
     justify-content: space-around;
-    align-content: center;
-    width: 80%;
 }
+
+nav a:hover {
+    background-color: #904E55;
+    color: #F1EFDD;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #495D63;  
+    text-align: center;
+}
+
 
 /*class selectors*/
 .home-imgs {
     width: 20%;
 }
 
-
-/*id selectors*/
-#main-img {
-    width: 40%;
+.imgright {
+    grid-column: 5/7;
+    grid-row: 6/7;
+    width: 100%;
 }
 
-#logo {
-    width: 200px;
+.imgleft2 {
+    grid-column: 2/4;
+    grid-row: 8/9;
+    width: 100%;
+}
+
+.imgleft {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    width: 100%;
+}
+
+/*id selectors*/
+#home-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 50px 50px 1fr 50px;
+    grid-template-rows: 10px 50px 10px 1fr 50px 1fr 50px 1fr 50px;
+}
+
+#main-img {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+}
+
+#homeimg {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#hometext {
+    text-align: center;
+    padding: 20px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#celltitle {
+    grid-column: 5/7;
+    grid-row: 4/5;
+}
+
+#datatitle {
+    grid-column: 2/4;
+    grid-row: 6/7;
+}
+
+#comptitle {
+    grid-column: 5/7;
+    grid-row: 8/9;
 }
