@@ -4,7 +4,7 @@ form {
     width: 400px;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #904E55;
     border-radius: 1em;
   }
   
@@ -12,6 +12,7 @@ form {
     list-style: none;
     padding: 0;
     margin: 0;
+    color: #495D63;
   }
   
   form li + li {

@@ -129,6 +129,10 @@ iframe {
     grid-row: 1/2;
 }
 
+.secondpg-para {
+    margin: 30px 100px;
+}
+
 
 /*id selectors*/
 #home-grid {
